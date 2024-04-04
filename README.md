@@ -26,7 +26,7 @@ Para executar este aplicativo localmente, siga as instruções abaixo:
 2. Clone este repositório para o seu ambiente local:
 
     ```bash
-    git clone https://github.com/seu-usuario/seu-repositorio.git
+    git clone https://github.com/moisesmania/applistadetarefa.git
     ```
 
 3. Acesse o diretório do projeto:

@@ -52,7 +52,7 @@ criar_tabela()
 
 # Interface Streamlit
 def main():
-    st.title("Lista de Tarefas Diárias")
+    st.title("Lista de Tarefas")
 
     # Entrada para adicionar tarefa
     descricao = st.text_input("Nova Tarefa:")
@@ -61,9 +61,9 @@ def main():
     if st.button("Adicionar Tarefa"):
         if descricao:
             adicionar_tarefa(descricao)
-            st.success("Tarefa adicionada com sucesso!")
+            st.success("Tarefa adicionada!")
         else:
-            st.warning("Por favor, insira uma descrição para a tarefa.")
+            st.warning("Por favor, Adicione uma descrição para a tarefa.")
 
     # Listar tarefas
     tarefas = obter_tarefas()
